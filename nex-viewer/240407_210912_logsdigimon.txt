@@ -1,0 +1,1184 @@
+Unsupported link layer type 147
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer d2 00 00 00 8a 07 00 00 00 02 00 00 00 0b 00 31 38 37 39 30 36 30 30 38 39 00 13 00 41 75 74 68 65 6e 74 69 63 61 74 69 6f 6e 49 6e 66 6f 00 a3 00 00 ... 164 more bytes>,
+    size: 210,
+    protocolId: 10,
+    mode: 0,
+    callId: 7,
+    methodId: 2,
+    body: <Buffer 0b 00 31 38 37 39 30 36 30 30 38 39 00 13 00 41 75 74 68 65 6e 74 69 63 61 74 69 6f 6e 49 6e 66 6f 00 a3 00 00 00 9f 00 00 00 99 00 74 4d 4a 32 6f 41 ... 151 more bytes>
+  },
+  rmcData: {
+    body: LoginExRequest {
+      strUserName: '1879060089',
+      oExtraData: [AnyDataHolder]
+    },
+    protocolName: 'Authentication',
+    methodName: 'LoginEx'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 05 01 00 00 0a 01 07 00 00 00 02 80 00 00 01 00 01 00 79 2e 00 70 74 00 00 00 d6 2f 21 dd 4f f2 3e 6e 6c 27 51 d1 d1 30 30 57 f9 ff 62 0d 13 74 25 ac ... 215 more bytes>,
+    size: 261,
+    protocolId: 10,
+    mode: 1,
+    responseStatus: 1,
+    callId: 7,
+    methodId: 2,
+    body: <Buffer 01 00 01 00 79 2e 00 70 74 00 00 00 d6 2f 21 dd 4f f2 3e 6e 6c 27 51 d1 d1 30 30 57 f9 ff 62 0d 13 74 25 ac eb 73 2b d9 69 ea 87 be d3 2b 52 8b 5f 21 ... 201 more bytes>
+  },
+  rmcData: {
+    body: LoginExResponse {
+      retval: [Result],
+      pidPrincipal: 1879060089,
+      pbufResponse: <Buffer d6 2f 21 dd 4f f2 3e 6e 6c 27 51 d1 d1 30 30 57 f9 ff 62 0d 13 74 25 ac eb 73 2b d9 69 ea 87 be d3 2b 52 8b 5f 21 a2 5f fd 41 61 db c3 d7 5b d5 35 0d ... 66 more bytes>,
+      pConnectionData: [RVConnectionData],
+      strReturnMsg: 'branch:ngs_2_30 build:2_22_13147_34_0'
+    },
+    protocolName: 'Authentication',
+    methodName: 'LoginEx'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 11 00 00 00 8a 0c 00 00 00 03 00 00 00 79 2e 00 70 02 00 00 00>,
+    size: 17,
+    protocolId: 10,
+    mode: 0,
+    callId: 12,
+    methodId: 3,
+    body: <Buffer 79 2e 00 70 02 00 00 00>
+  },
+  rmcData: {
+    body: RequestTicketRequest { idSource: 1879060089, idTarget: 2 },
+    protocolName: 'Authentication',
+    methodName: 'RequestTicket'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'authentication',
+    packets: [ [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: false,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 86 00 00 00 0a 01 0c 00 00 00 03 80 00 00 01 00 01 00 74 00 00 00 7f 42 a5 a3 d7 94 d5 5b 73 5e 96 7d 1c 67 39 d4 2c fc 24 48 6f ad 48 33 aa 61 c7 37 ... 88 more bytes>,
+    size: 134,
+    protocolId: 10,
+    mode: 1,
+    responseStatus: 1,
+    callId: 12,
+    methodId: 3,
+    body: <Buffer 01 00 01 00 74 00 00 00 7f 42 a5 a3 d7 94 d5 5b 73 5e 96 7d 1c 67 39 d4 2c fc 24 48 6f ad 48 33 aa 61 c7 37 ca b1 93 3e d0 2b 52 8b 5f 21 a2 5f a0 f1 ... 74 more bytes>
+  },
+  rmcData: {
+    body: RequestTicketResponse {
+      retval: [Result],
+      bufResponse: <Buffer 7f 42 a5 a3 d7 94 d5 5b 73 5e 96 7d 1c 67 39 d4 2c fc 24 48 6f ad 48 33 aa 61 c7 37 ca b1 93 3e d0 2b 52 8b 5f 21 a2 5f a0 f1 ce 40 99 ab 5d 10 0c ff ... 66 more bytes>
+    },
+    protocolName: 'Authentication',
+    methodName: 'RequestTicket'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer ab 00 00 00 8b 0f 00 00 00 01 00 00 00 02 00 00 00 49 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 ... 125 more bytes>,
+    size: 171,
+    protocolId: 11,
+    mode: 0,
+    callId: 15,
+    methodId: 1,
+    body: <Buffer 02 00 00 00 49 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 31 39 32 2e 31 36 38 2e 30 2e 34 32 3b 70 6f 72 74 3d 35 31 34 39 36 3b 6e 61 74 66 3d ... 112 more bytes>
+  },
+  rmcData: {
+    body: RegisterRequest { vecMyURLs: [Array] },
+    protocolName: 'Secure Connection',
+    methodName: 'Register'
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 65 00 00 00 0b 01 0f 00 00 00 01 80 00 00 01 00 01 00 0f a0 03 00 51 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 38 32 2e 36 36 2e 32 34 36 2e 31 ... 55 more bytes>,
+    size: 101,
+    protocolId: 11,
+    mode: 1,
+    responseStatus: 1,
+    callId: 15,
+    methodId: 1,
+    body: <Buffer 01 00 01 00 0f a0 03 00 51 00 70 72 75 64 70 3a 2f 61 64 64 72 65 73 73 3d 38 32 2e 36 36 2e 32 34 36 2e 31 33 37 3b 70 6f 72 74 3d 35 31 34 39 36 3b ... 41 more bytes>
+  },
+  rmcData: {
+    body: RegisterResponse {
+      retval: 65537,
+      pidConnectionID: 237583,
+      urlPublic: [StationURL]
+    },
+    protocolName: 'Secure Connection',
+    methodName: 'Register'
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 12 00 00 00 ee 11 00 00 00 05 00 00 00 01 0b c0 34 61 5a 64 00 00>,
+    size: 18,
+    protocolId: 110,
+    mode: 0,
+    callId: 17,
+    methodId: 5,
+    body: <Buffer 01 0b c0 34 61 5a 64 00 00>
+  },
+  rmcData: {
+    protocolName: 'Storage Manager',
+    methodName: 'ActivateWithCardId',
+    body: ActivateWithCardIdRequest { unknown: 1, cardId: 110339340681227n }
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 0f 00 00 00 6e 01 11 00 00 00 05 80 00 00 fe 76 00 00 00>,
+    size: 15,
+    protocolId: 110,
+    mode: 1,
+    responseStatus: 1,
+    callId: 17,
+    methodId: 5,
+    body: <Buffer fe 76 00 00 00>
+  },
+  rmcData: {
+    protocolName: 'Storage Manager',
+    methodName: 'ActivateWithCardId',
+    body: ActivateWithCardIdResponse { uniqueId: 30462, firstTime: false }
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 1c 00 00 00 f0 12 00 00 00 0f 00 00 00 fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 01>,
+    size: 28,
+    protocolId: 112,
+    mode: 0,
+    callId: 18,
+    methodId: 15,
+    body: <Buffer fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 01>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFRequest {
+      uniqueId: 30462,
+      category: 0,
+      scoreIndex: 0,
+      unknown1: 1,
+      unknown2: 0,
+      unknown3: 0,
+      unknown4: 255,
+      unknown5: 0,
+      unknown6: 0,
+      length: 1
+    }
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [ [Packet], [Packet], [Packet], [Packet], [Packet], [Circular *1] ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 75 00 00 00 70 01 12 00 00 00 0f 80 00 00 1e 00 01 00 00 00 fe 76 00 00 79 2e 00 70 a7 4b 00 00 00 00 00 00 02 00 00 00 20 00 00 00 02 00 00 00 00 62 ... 71 more bytes>,
+    size: 117,
+    protocolId: 112,
+    mode: 1,
+    responseStatus: 1,
+    callId: 18,
+    methodId: 15,
+    body: <Buffer 1e 00 01 00 00 00 fe 76 00 00 79 2e 00 70 a7 4b 00 00 00 00 00 00 02 00 00 00 20 00 00 00 02 00 00 00 00 62 00 00 00 40 00 00 00 fe 76 00 00 72 00 61 ... 57 more bytes>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFResponse { unknown: 30, rankDataList: [Array] }
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 1c 00 00 00 f0 13 00 00 00 0f 00 00 00 fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 01>,
+    size: 28,
+    protocolId: 112,
+    mode: 0,
+    callId: 19,
+    methodId: 15,
+    body: <Buffer fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 01>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFRequest {
+      uniqueId: 30462,
+      category: 0,
+      scoreIndex: 0,
+      unknown1: 1,
+      unknown2: 0,
+      unknown3: 0,
+      unknown4: 255,
+      unknown5: 0,
+      unknown6: 0,
+      length: 1
+    }
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 75 00 00 00 70 01 13 00 00 00 0f 80 00 00 1e 00 01 00 00 00 fe 76 00 00 79 2e 00 70 a7 4b 00 00 00 00 00 00 02 00 00 00 20 00 00 00 02 00 00 00 00 62 ... 71 more bytes>,
+    size: 117,
+    protocolId: 112,
+    mode: 1,
+    responseStatus: 1,
+    callId: 19,
+    methodId: 15,
+    body: <Buffer 1e 00 01 00 00 00 fe 76 00 00 79 2e 00 70 a7 4b 00 00 00 00 00 00 02 00 00 00 20 00 00 00 02 00 00 00 00 62 00 00 00 40 00 00 00 fe 76 00 00 72 00 61 ... 57 more bytes>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFResponse { unknown: 30, rankDataList: [Array] }
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 1c 00 00 00 f0 14 00 00 00 0f 00 00 00 fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 c8>,
+    size: 28,
+    protocolId: 112,
+    mode: 0,
+    callId: 20,
+    methodId: 15,
+    body: <Buffer fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 c8>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFRequest {
+      uniqueId: 30462,
+      category: 0,
+      scoreIndex: 0,
+      unknown1: 1,
+      unknown2: 0,
+      unknown3: 0,
+      unknown4: 255,
+      unknown5: 0,
+      unknown6: 0,
+      length: 200
+    }
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer f8 4e 00 00 70 01 14 00 00 00 0f 80 00 00 1e 00 c8 00 00 00 69 54 00 00 53 a1 4e 08 ff 4a 00 00 00 00 00 00 02 00 00 00 28 00 00 00 04 00 00 00 00 68 ... 20170 more bytes>,
+    size: 20216,
+    protocolId: 112,
+    mode: 1,
+    responseStatus: 1,
+    callId: 20,
+    methodId: 15,
+    body: <Buffer 1e 00 c8 00 00 00 69 54 00 00 53 a1 4e 08 ff 4a 00 00 00 00 00 00 02 00 00 00 28 00 00 00 04 00 00 00 00 68 00 00 00 40 00 00 00 69 54 00 00 4a 30 82 ... 20156 more bytes>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFResponse { unknown: 30, rankDataList: [Array] }
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Packet],      [Packet],
+      [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer 1c 00 00 00 f0 15 00 00 00 0f 00 00 00 fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 c8>,
+    size: 28,
+    protocolId: 112,
+    mode: 0,
+    callId: 21,
+    methodId: 15,
+    body: <Buffer fe 76 00 00 00 00 00 00 00 01 00 00 ff 00 00 00 00 00 c8>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFRequest {
+      uniqueId: 30462,
+      category: 0,
+      scoreIndex: 0,
+      unknown1: 1,
+      unknown2: 0,
+      unknown3: 0,
+      unknown4: 255,
+      unknown5: 0,
+      unknown6: 0,
+      length: 200
+    }
+  },
+  date: 0,
+  source: 161,
+  destination: 175
+}
+<ref *1> Packet {
+  connection: Connection {
+    discriminator: 'secure',
+    packets: [
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Packet],
+      [Packet], [Circular *1]
+    ],
+    doneClientSyn: false,
+    doneServerSyn: false,
+    doneClientConnect: false,
+    doneServerConnect: false,
+    prudpVersion: null,
+    accessKey: 'feddccba',
+    accessKeySum: <Buffer 00 00 00 00>,
+    signatureKey: null,
+    sessionKey: <Buffer >,
+    currentFragmentedPayload: <Buffer >,
+    clientConnectionSignature: <Buffer >,
+    serverConnectionSignature: <Buffer >,
+    rc4CipherToClient: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    rc4CipherToServer: Decipheriv {
+      _decoder: null,
+      _options: undefined,
+      [Symbol(kHandle)]: CipherBase {}
+    },
+    clientPID: null,
+    clientNEXPassword: null,
+    secureServerStationURL: null,
+    checkForSecureServer: false,
+    isSecureServer: true,
+    title: {
+      name: 'Digimon Re:Digitize Decode',
+      access_key: 'feddccba',
+      nex_version: '2.7.3',
+      nex_ranking_version: '2.7.3',
+      nex_datastore_version: '2.7.3',
+      nex_match_making_version: '2.7.3',
+      nex_messaging_version: '2.7.3',
+      nex_utility_version: '2.7.3',
+      title_ids: [Array]
+    },
+    clientFragmentationManager: FragmentationManager { fragments: [] },
+    serverFragmentationManager: FragmentationManager { fragments: [] },
+    decryptedClientPayloads: {},
+    decryptedServerPayloads: {}
+  },
+  stream: undefined,
+  isRawRMC: true,
+  rmcMessage: RMCMessage {
+    payload: <Buffer f8 4e 00 00 70 01 15 00 00 00 0f 80 00 00 1e 00 c8 00 00 00 69 54 00 00 53 a1 4e 08 ff 4a 00 00 00 00 00 00 02 00 00 00 28 00 00 00 04 00 00 00 00 68 ... 20170 more bytes>,
+    size: 20216,
+    protocolId: 112,
+    mode: 1,
+    responseStatus: 1,
+    callId: 21,
+    methodId: 15,
+    body: <Buffer 1e 00 c8 00 00 00 69 54 00 00 53 a1 4e 08 ff 4a 00 00 00 00 00 00 02 00 00 00 28 00 00 00 04 00 00 00 00 68 00 00 00 40 00 00 00 69 54 00 00 4a 30 82 ... 20156 more bytes>
+  },
+  rmcData: {
+    protocolName: 'Ranking (Legacy)',
+    methodName: 'UnknownMethod0xF',
+    body: UnknownMethod0xFResponse { unknown: 30, rankDataList: [Array] }
+  },
+  date: 0,
+  source: 175,
+  destination: 161
+}
